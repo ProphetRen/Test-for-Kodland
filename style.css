@@ -1,0 +1,79 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:15%  15%; 
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  border: 2px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.female_boots{
+  height: 205px;
+}
+
+.description{
+  margin:30px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.normal_text{
+  margin-top: 5px;
+  font-size: 15px;
+  color:#666666;
+}
+
+.purchase_bar{
+  margin-top:28px;
+}
+
+.price_bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bold_price{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.currency{
+  font-size: 20px;
+}
+
+.buy_btn{
+  border-radius: 5px;
+  width: 50px;
+  height: 40px;
+  background-color: #4ed17b;
+  cursor: pointer;
+}
+
+.buy_btn:hover{
+  background-color: yellow;
+}
+
+.cart_png{
+  padding: 7px 8px;
+  text-align: center;
+  width: 27px;
+  height: 25px;
+}
